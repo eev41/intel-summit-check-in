@@ -187,6 +187,12 @@ button .fas {
   text-align: center;
 }
 
+.attendance-tracker h2 {
+  padding-bottom: 15px;
+  text-shadow: 0 0 25px gold; 
+  display: none;
+}
+
 .attendance-header {
   display: flex;
   align-items: center;
@@ -314,7 +320,7 @@ select {
 .team-stats h3 {
   color: #64748b;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .teams-grid {
@@ -329,6 +335,11 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+#waterAttendees, #zeroAttendees, #powerAttendees {
+  overflow: scroll;
+  max-height: 150px;
 }
 
 /* Team card colors */
